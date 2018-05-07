@@ -1,0 +1,1534 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="2226" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="17">aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL</File>
+          <FormatSpecificOptions>
+            <ForceSqlWcharSupport>False</ForceSqlWcharSupport>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <PostSQL />
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:IDR_CLOUD
+Table=Select GENPOLICY_ALL.* From GENPOLICY_ALL</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="POLICY_KEY_G" size="18" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field description="PrimaryKey" name="ENDORSEMENT_CDE_G" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Double" />
+            <Field name="POLICY_KEY_P" size="21" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="AGENT_KEY" size="18" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="SEG_CDE" size="11" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="DATE_RESILIATION" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="END_DATE_G" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="END_DESC_G" size="62" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="END_DESC_CANCEL_G" size="62" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="PLF_FORMULANAME" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="PLN_NAME" size="62" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="PLN_SECTION_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_END_PREM" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_EXT_CDE" size="31" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="POL_FLEET_IND" size="2" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="POL_FLEET_TYPE" size="102" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="POL_FLEET_TYPE_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_MATURITY_TYPE_CDE_G" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_PLAN_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_PLAN_FORMULA_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_PROFIL_ASSURE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_PROJECT_CONTRACT_DATE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_PROV_ATTEST_NO" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="POL_RELAY_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_RENEWABLE_IND" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="POL_START_DATE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_STATUS_G" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="POL_STATUS_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_CLIENT_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_CONTRACT_END_DATE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_CONTRACT_START_DATE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_DATEREFORME" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_STATUS_REASON_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_CRT_USER" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_UPD_USER" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_DEFIN_ATTEST_NO" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="POL_CANCEL_DATE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_TYPEREFORME" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="POL_END_DATE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_ASSISTANCE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POL_TARIFF_VALCONV_IND" size="2" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="POL_WS_FMSAR" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POLICE_MERE" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="PSR_DESC" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="SEC_DESC" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="START_DATE_G" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="STATUS_FLEET_G" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="PLAN_KEY" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="INTERRUPTION" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="POLICE_REPLACEMENT" size="33" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="DATE_CREATION" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_REL_PARRAINFILLEUL_CDE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int16" />
+            <Field name="POL_REL_PARRAINFILLEUL" size="31" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="POL_NBFILLEUL" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int16" />
+            <Field name="POL_PARRAIN" size="31" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="WString" />
+            <Field name="POL_CRM_APPLIQUE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int32" />
+            <Field name="POL_CRM_A_APPLIQUE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int32" />
+            <Field name="POL_DATE_CALCUL_CRM" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="DateTime" />
+            <Field name="POL_COEFF_COMMERCIAL" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int32" />
+            <Field name="ACOMPTE" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Double" />
+            <Field name="TYPE_FLOTTE" size="256" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="V_WString" />
+            <Field name="PREV_PLAN_KEY" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+            <Field name="PREV_AGENT_KEY" source="File: aka:IDR_CLOUD|||Select GENPOLICY_ALL.* From GENPOLICY_ALL" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="2226" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="START_DATE_G" selected="True" rename="START_DATE" />
+            <SelectField field="STATUS_FLEET_G" selected="True" rename="STATUS_FLEET" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="258" y="2394" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">D:\karam_files\recette_work\tables_data\New folder\genpolicy_all_prod_20042018.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>genpolicy_all_prod_20042018.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1854" y="2058" width="505" height="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Only 3 types</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="1879" y="2114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="STATUS_FLEET" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: STATUS_FLEET</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2275" y="2102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_726d24aaa79c4b82b9fb3dd44c0940e1_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2095" y="2102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="STATUS_FLEET" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1158" y="2382" width="591" height="262" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_if_mono_has_mother</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1626" y="2426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_856580aa0bf64016be99471dbf8387fb_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1446" y="2438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[!IsNull([POLICE_MERE])  OR
+Trim([POLICE_MERE]) != ""
+
+
+]]></Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[!IsNull([POLICE_MERE])  OR
+Trim([POLICE_MERE]) != ""
+
+
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1183" y="2446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>uppercase([STATUS_FLEET]) = "MONO"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>uppercase([STATUS_FLEET]) = "MONO"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1626" y="2514" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">D:\salwa_files\To_Check_PROD\mono_having_a_mother.yxdb</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>mono_having_a_mother.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1074" y="1554" width="201.7897" height="190" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_if_duplicate_policy_endo</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="1099" y="1598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="POLICY_KEY_G" />
+                <Field field="ENDORSEMENT_CDE_G" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: POLICY_KEY_G, ENDORSEMENT_CDE_G</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1158" y="1150" width="996" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_count_all_equal_count_unique</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1195" y="1202" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="POLICY_KEY" action="Count" rename="count_source" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1183" y="1322" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="POLICY_KEY" action="Count" rename="count_unique" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1374" y="1194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;1&quot;" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[ID = "1"
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1386" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;1&quot;" field="ID" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[ID = "1"
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1542" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_ID" selected="True" rename="Right_ID" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1734" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="if [count_source] = [count_source]&#xA;then &quot;correct&quot;&#xA;else &quot;incorrect&quot;&#xA;endif" field="verify_result" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>verify_result = if [count_source] = [count_source]
+then "correct"
+else "incorrec...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1914" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>verify_result</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>correct</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[verify_result] = "correct"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2070" y="1206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_299d4e428469480f9d7abcfc9a2c0c62_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1794" y="2550" width="553" height="232" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_if_daughter_has_mother</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1819" y="2630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>uppercase([STATUS_FLEET]) = "FILLE"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>uppercase([STATUS_FLEET]) = "FILLE"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="2071" y="2606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>IsNull([POLICE_MERE])  OR
+Trim([POLICE_MERE]) = ""</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([POLICE_MERE])  OR
+Trim([POLICE_MERE]) = ""</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2263" y="2594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_ee886c6a60df4b91b27c4028493b3f33_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1158" y="2106" width="552" height="250" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_if_mother_has_mother</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1410" y="2150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[!IsNull([POLICE_MERE])  OR
+Trim([POLICE_MERE]) != ""
+
+
+]]></Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[!IsNull([POLICE_MERE])  OR
+Trim([POLICE_MERE]) != ""
+
+
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1626" y="2150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_e4c982f4a6cd49edb2ff16b318e974ed_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1183" y="2162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>uppercase([STATUS_FLEET]) = "MERE"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>uppercase([STATUS_FLEET]) = "MERE"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1590" y="2214" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_16c07ac5c46041d985f1a04d5385f05b_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="882" y="54" width="1212" height="511.9993" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_mere_fille</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="907.0001" y="145.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[STATUS_FLEET] = "MERE"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[STATUS_FLEET] = "MERE"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1087" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_821ab0975f884c33931772565f30303c_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="907" y="325.9991" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[STATUS_FLEET] = "FILLE"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[STATUS_FLEET] = "FILLE"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1134" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_b5a50a2e9fed4522b732e2020c3f5d56_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1326" y="209.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="POL_EXT_CDE" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="POLICE_MERE" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_POLICY_KEY_G" selected="True" rename="Right_POLICY_KEY_G" />
+                    <SelectField field="Right_ENDORSEMENT_CDE_G" selected="True" rename="Right_ENDORSEMENT_CDE_G" />
+                    <SelectField field="Right_POLICY_KEY_P" selected="True" rename="Right_POLICY_KEY_P" />
+                    <SelectField field="Right_AGENT_KEY" selected="True" rename="Right_AGENT_KEY" />
+                    <SelectField field="Right_SEG_CDE" selected="True" rename="Right_SEG_CDE" />
+                    <SelectField field="Right_DATE_RESILIATION" selected="True" rename="Right_DATE_RESILIATION" />
+                    <SelectField field="Right_END_DATE_G" selected="True" rename="Right_END_DATE_G" />
+                    <SelectField field="Right_END_DESC_G" selected="True" rename="Right_END_DESC_G" />
+                    <SelectField field="Right_END_DESC_CANCEL_G" selected="True" rename="Right_END_DESC_CANCEL_G" />
+                    <SelectField field="Right_PLF_FORMULANAME" selected="True" rename="Right_PLF_FORMULANAME" />
+                    <SelectField field="Right_PLN_NAME" selected="True" rename="Right_PLN_NAME" />
+                    <SelectField field="Right_PLN_SECTION_CDE" selected="True" rename="Right_PLN_SECTION_CDE" />
+                    <SelectField field="Right_POL_END_PREM" selected="True" rename="Right_POL_END_PREM" />
+                    <SelectField field="Right_POL_EXT_CDE" selected="True" rename="Right_POL_EXT_CDE" />
+                    <SelectField field="Right_POL_FLEET_IND" selected="True" rename="Right_POL_FLEET_IND" />
+                    <SelectField field="Right_POL_FLEET_TYPE" selected="True" rename="Right_POL_FLEET_TYPE" />
+                    <SelectField field="Right_POL_FLEET_TYPE_CDE" selected="True" rename="Right_POL_FLEET_TYPE_CDE" />
+                    <SelectField field="Right_POL_MATURITY_TYPE_CDE_G" selected="True" rename="Right_POL_MATURITY_TYPE_CDE_G" />
+                    <SelectField field="Right_POL_PLAN_CDE" selected="True" rename="Right_POL_PLAN_CDE" />
+                    <SelectField field="Right_POL_PLAN_FORMULA_CDE" selected="True" rename="Right_POL_PLAN_FORMULA_CDE" />
+                    <SelectField field="Right_POL_PROFIL_ASSURE" selected="True" rename="Right_POL_PROFIL_ASSURE" />
+                    <SelectField field="Right_POL_PROJECT_CONTRACT_DATE" selected="True" rename="Right_POL_PROJECT_CONTRACT_DATE" />
+                    <SelectField field="Right_POL_PROV_ATTEST_NO" selected="True" rename="Right_POL_PROV_ATTEST_NO" />
+                    <SelectField field="Right_POL_RELAY_CDE" selected="True" rename="Right_POL_RELAY_CDE" />
+                    <SelectField field="Right_POL_RENEWABLE_IND" selected="True" rename="Right_POL_RENEWABLE_IND" />
+                    <SelectField field="Right_POL_START_DATE" selected="True" rename="Right_POL_START_DATE" />
+                    <SelectField field="Right_POL_STATUS_G" selected="True" rename="Right_POL_STATUS_G" />
+                    <SelectField field="Right_POL_STATUS_CDE" selected="True" rename="Right_POL_STATUS_CDE" />
+                    <SelectField field="Right_POL_CLIENT_CDE" selected="True" rename="Right_POL_CLIENT_CDE" />
+                    <SelectField field="Right_POL_CONTRACT_END_DATE" selected="True" rename="Right_POL_CONTRACT_END_DATE" />
+                    <SelectField field="Right_POL_CONTRACT_START_DATE" selected="True" rename="Right_POL_CONTRACT_START_DATE" />
+                    <SelectField field="Right_POL_DATEREFORME" selected="True" rename="Right_POL_DATEREFORME" />
+                    <SelectField field="Right_POL_STATUS_REASON_CDE" selected="True" rename="Right_POL_STATUS_REASON_CDE" />
+                    <SelectField field="Right_POL_CRT_USER" selected="True" rename="Right_POL_CRT_USER" />
+                    <SelectField field="Right_POL_UPD_USER" selected="True" rename="Right_POL_UPD_USER" />
+                    <SelectField field="Right_POL_DEFIN_ATTEST_NO" selected="True" rename="Right_POL_DEFIN_ATTEST_NO" />
+                    <SelectField field="Right_POL_CANCEL_DATE" selected="True" rename="Right_POL_CANCEL_DATE" />
+                    <SelectField field="Right_POL_TYPEREFORME" selected="True" rename="Right_POL_TYPEREFORME" />
+                    <SelectField field="Right_POL_END_DATE" selected="True" rename="Right_POL_END_DATE" />
+                    <SelectField field="Right_POL_ASSISTANCE" selected="True" rename="Right_POL_ASSISTANCE" />
+                    <SelectField field="Right_POL_TARIFF_VALCONV_IND" selected="True" rename="Right_POL_TARIFF_VALCONV_IND" />
+                    <SelectField field="Right_POL_WS_FMSAR" selected="True" rename="Right_POL_WS_FMSAR" />
+                    <SelectField field="Right_POLICE_MERE" selected="True" rename="Right_POLICE_MERE" />
+                    <SelectField field="Right_PSR_DESC" selected="True" rename="Right_PSR_DESC" />
+                    <SelectField field="Right_SEC_DESC" selected="True" rename="Right_SEC_DESC" />
+                    <SelectField field="Right_START_DATE" selected="True" rename="Right_START_DATE" />
+                    <SelectField field="Right_STATUS_FLEET" selected="True" rename="Right_STATUS_FLEET" />
+                    <SelectField field="Right_PLAN_KEY" selected="True" rename="Right_PLAN_KEY" />
+                    <SelectField field="Right_INTERRUPTION" selected="True" rename="Right_INTERRUPTION" />
+                    <SelectField field="Right_POLICE_REPLACEMENT" selected="True" rename="Right_POLICE_REPLACEMENT" />
+                    <SelectField field="Right_DATE_CREATION" selected="True" rename="Right_DATE_CREATION" />
+                    <SelectField field="Right_POL_REL_PARRAINFILLEUL_CDE" selected="True" rename="Right_POL_REL_PARRAINFILLEUL_CDE" />
+                    <SelectField field="Right_POL_REL_PARRAINFILLEUL" selected="True" rename="Right_POL_REL_PARRAINFILLEUL" />
+                    <SelectField field="Right_POL_NBFILLEUL" selected="True" rename="Right_POL_NBFILLEUL" />
+                    <SelectField field="Right_POL_PARRAIN" selected="True" rename="Right_POL_PARRAIN" />
+                    <SelectField field="Right_POL_CRM_APPLIQUE" selected="True" rename="Right_POL_CRM_APPLIQUE" />
+                    <SelectField field="Right_POL_CRM_A_APPLIQUE" selected="True" rename="Right_POL_CRM_A_APPLIQUE" />
+                    <SelectField field="Right_POL_DATE_CALCUL_CRM" selected="True" rename="Right_POL_DATE_CALCUL_CRM" />
+                    <SelectField field="Right_POL_COEFF_COMMERCIAL" selected="True" rename="Right_POL_COEFF_COMMERCIAL" />
+                    <SelectField field="Right_ACOMPTE" selected="True" rename="Right_ACOMPTE" />
+                    <SelectField field="Right_TYPE_FLOTTE" selected="True" rename="Right_TYPE_FLOTTE" />
+                    <SelectField field="Right_PREV_PLAN_KEY" selected="True" rename="Right_PREV_PLAN_KEY" />
+                    <SelectField field="Right_PREV_AGENT_KEY" selected="True" rename="Right_PREV_AGENT_KEY" />
+                    <SelectField field="Right_ENDORSEMENT_CDE" selected="True" rename="Right_ENDORSEMENT_CDE" />
+                    <SelectField field="Right_POLICY_KEY" selected="True" rename="Right_POLICY_KEY" />
+                    <SelectField field="Right_POL_AGENT_CDE" selected="True" rename="Right_POL_AGENT_CDE" />
+                    <SelectField field="Right_END_DESC" selected="True" rename="Right_END_DESC" />
+                    <SelectField field="Right_END_DESC_CANCEL" selected="True" rename="Right_END_DESC_CANCEL" />
+                    <SelectField field="Right_POL_MATURITY_TYPE_CDE" selected="True" rename="Right_POL_MATURITY_TYPE_CDE" />
+                    <SelectField field="Right_END_DATE" selected="True" rename="Right_END_DATE" />
+                    <SelectField field="Right_POL_STATUS" selected="True" rename="Right_POL_STATUS" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1578" y="209.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF Uppercase([STATUS_FLEET]) = 'MERE' and [POL_EXT_CDE] = [Right_POLICE_MERE] and [Right_STATUS_FLEET] = 'FILLE' &#xA;then 1 else 0&#xA;ENDIF&#xA;" field="is_policy_match" size="1" type="Bool" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>is_policy_match = IF Uppercase([STATUS_FLEET]) = 'MERE' and [POL_EXT_CDE] = [Rig...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1818" y="209.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>is_policy_match</Field>
+                <Operator>IsTrue</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[is_policy_match] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2010" y="137.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_63a7ae29f1c04de58a13476692dd349e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2010" y="269.9997" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_13e616604a414f3897887af6acf45dcb_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="907.0001" y="445.9995" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[STATUS_FLEET] = "MONO"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[STATUS_FLEET] = "MONO"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1099" y="481.9992" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_84baa3b9190d4dbe8978e7eb731432b8_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1422" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1518" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_8135817e449e4b449e2ecf2222c1aa7f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1158" y="682" width="457" height="345" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>check_if_mother_mono_before_1-1-2006</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1183" y="865.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>uppercase([STATUS_FLEET]) = "MERE" AND DateTimeFormat([START_DATE],"%m/%d/%Y") &lt; "01/01/2006"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>uppercase([STATUS_FLEET]) = "MERE" AND DateTimeFormat([START_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1531" y="853.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_4cee5eb2f6c340db9b6d48ba6bd51287_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1183" y="733.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>DateTimeFormat([START_DATE],"%m/%d/%Y") &lt; "01/01/2006"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DateTimeFormat([START_DATE],"%m/%d/%Y") &lt; "01/01/2006"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1530" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>D:\1 - Alteryx_temp_file\user_temp\Engine_3596_aa40fe4ee0494184a1ca3c7cb37c32fb_\Engine_2676_dfcfdaf7b0d440ca821b3128330f5e76_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1482" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">D:\salwa_files\To_Check_PROD\mono_before_1_1_2016.yxdb</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>mono_before_1_1_2016.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="False" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Unique" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="False" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="False" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="True" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="True" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>sanity_check_genpolicy_all_PROD</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
