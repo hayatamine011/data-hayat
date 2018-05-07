@@ -20,7 +20,7 @@ pipeline {
 	      
         echo 'Tagging the Release'
        
-echo "salam world :)!"
+           echo "salam world :)!"
 	       sh "pwd"
          sh "echo pwd"
       }
